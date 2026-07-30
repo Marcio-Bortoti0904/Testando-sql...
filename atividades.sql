@@ -24,3 +24,6 @@ CREATE TABLE item_pedido (
   ID_PEDIDO INT,
   FOREIGN KEY (ID_PEDIDO) REFERENCES PEDIDO(ID)
 );
+
+INSERT INTO CLIENTE VALUES(0001, 'Bruce Cage', 'cage.bruce@gmail.com', '45901203909', '2002-02-09');
+INSERT INTO CLIENTE VALUES(0021, 'Mike Walk', 'mike.walk@gmail.com', '65908490798', '2020-05-29');
